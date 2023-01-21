@@ -1,0 +1,7 @@
+"Space Bounty Hunters!"
+{
+	"base"		"nutscript"
+	"title"		"Space Bounty Hunters!"
+	"author"	""
+	"menusystem"	"1"
+}
