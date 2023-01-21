@@ -12,7 +12,7 @@ ACT.CD = 3
 ACT.selfOnly = true
 ACT.notarget = true
 ACT.reqStats = {
-	["stm"] = 10,
+	["dexterity"] = 10,
 }
 ACT.effects = {
 	[1] = {
@@ -45,7 +45,7 @@ ACT.dmg = 0
 ACT.multi = 3
 ACT.weaponMult = 0.9
 ACT.reqStats = {
-	["stm"] = 15,
+	["dexterity"] = 15,
 }
 ACTS:Register(ACT)
 //
@@ -60,7 +60,7 @@ ACT.CD = 4
 ACT.selfOnly = true
 ACT.notarget = true
 ACT.reqStats = {
-	["stm"] = 20,
+	["dexterity"] = 20,
 }
 ACT.effects = {
 	[1] = {
@@ -88,10 +88,10 @@ ACT.CD = 2
 ACT.dmg = 15
 ACT.dmgT = "Crush"
 ACT.mult = {
-	["stm"] = 0.5,
+	["dexterity"] = 0.5,
 }
 ACT.reqStats = {
-	["stm"] = 25,
+	["dexterity"] = 25,
 }
 ACT.effects = {
 	[1] = {

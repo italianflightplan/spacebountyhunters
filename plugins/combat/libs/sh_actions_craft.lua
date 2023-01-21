@@ -10,7 +10,7 @@ ACT.category = "Craftiness"
 ACT.attackString = "tunes up an ally's weapon, increasing the damage of its next attack"
 ACT.CD = 3
 ACT.reqStats = {
-	["medical"] = 10,
+	["intelligence"] = 10,
 }
 ACT.effects = {
 	[1] = {
@@ -44,7 +44,7 @@ ACT.CD = 3
 ACT.dmg = 0
 ACT.weaponMult = 3
 ACT.reqStats = {
-	["medical"] = 15,
+	["intelligence"] = 15,
 }
 ACTS:Register(ACT)
 //
@@ -59,7 +59,7 @@ ACT.CD = 6
 ACT.radius = 200
 ACT.notarget = true
 ACT.reqStats = {
-	["medical"] = 20,
+	["intelligence"] = 20,
 }
 ACT.effects = {
 	[1] = {
@@ -84,7 +84,7 @@ ACT.category = "Craftiness"
 ACT.attackString = "fires at their target's weapon"
 ACT.CD = 5
 ACT.reqStats = {
-	["medical"] = 25,
+	["intelligence"] = 25,
 }
 ACT.effects = {
 	[1] = {
@@ -109,7 +109,7 @@ ACT.CD = 6
 ACT.category = "Craftiness"
 ACT.attackString = ""
 ACT.reqStats = {
-	["medical"] = 30,
+	["arcane"] = 30,
 }
 ACT.effects = {
 	[1] = {
@@ -134,7 +134,7 @@ ACT.CD = 10
 ACT.category = "Craftiness"
 ACT.attackString = "pitches a scheme to their target"
 ACT.reqStats = {
-	["medical"] = 35,
+	["arcane"] = 35,
 }
 ACT.effects = {
 	[1] = {
@@ -178,7 +178,7 @@ ACT.category = "Craftiness"
 ACT.attackString = "tries to convince their target not to attack them"
 ACT.CD = 5
 ACT.reqStats = {
-	["medical"] = 40,
+	["arcane"] = 40,
 }
 ACT.effects = {
 	[1] = {
